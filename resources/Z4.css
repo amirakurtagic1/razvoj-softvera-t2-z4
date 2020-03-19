@@ -2,8 +2,6 @@ GridPane{
     -fx-background-color: yellowgreen;
 }
 
-Bojaslike{
-
-   -fx-background-color: blue;
-
+#Ikonica{
+        -fx-background-graphic: url("/img/ikonica.png");
 }

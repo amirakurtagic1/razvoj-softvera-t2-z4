@@ -45,7 +45,7 @@
             </Button>
             <Label text="Data">
                <padding>
-                  <Insets left="5.0" top="15.0" />
+                  <Insets top="15.0" />
                </padding>
                <font>
                   <Font name="System Bold" size="18.0" />
@@ -53,23 +53,35 @@
             </Label>
             <Label text="Cost">
                <padding>
-                  <Insets left="20.0" top="15.0" />
+                  <Insets left="12.0" top="15.0" />
                </padding>
+               <font>
+                  <Font size="11.0" />
+               </font>
             </Label>
             <Label text="Goods">
                <padding>
-                  <Insets left="20.0" top="15.0" />
+                  <Insets left="12.0" top="15.0" />
                </padding>
+               <font>
+                  <Font size="11.0" />
+               </font>
             </Label>
             <Label text="Employees" VBox.vgrow="ALWAYS">
                <padding>
-                  <Insets left="20.0" top="15.0" />
+                  <Insets left="12.0" top="15.0" />
                </padding>
+               <font>
+                  <Font size="11.0" />
+               </font>
             </Label>
             <Label text="Departments" VBox.vgrow="ALWAYS">
                <padding>
-                  <Insets left="20.0" top="15.0" />
+                  <Insets left="12.0" top="15.0" />
                </padding>
+               <font>
+                  <Font size="11.0" />
+               </font>
             </Label>
          </children>
          <GridPane.margin>
@@ -100,36 +112,85 @@
             <Insets left="20.0" />
          </GridPane.margin>
       </HBox>
-      <Label text="Employees" GridPane.columnIndex="2" GridPane.rowIndex="1">
+      <BorderPane prefHeight="304.0" prefWidth="357.0" style="-fx-background-color: powderblue;" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="1" GridPane.rowSpan="14">
+         <center>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@img/slika.png" />
+               </image>
+               <BorderPane.margin>
+                  <Insets left="70.0" top="25.0" />
+               </BorderPane.margin>
+            </ImageView>
+         </center>
+         <left>
+            <VBox prefHeight="252.0" prefWidth="102.0" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets right="-75.0" />
+               </BorderPane.margin>
+               <children>
+                  <Label text="&gt; 45 years">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="5.0" top="120.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+         </left>
+         <top>
+            <HBox prefHeight="32.0" prefWidth="351.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="29.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/ikonica.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="Employees">
+                     <HBox.margin>
+                        <Insets left="120.0" top="5.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </HBox>
+         </top>
+         <right>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label text="28-45 years">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="60.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="&lt;28 years">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="55.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </right>
          <GridPane.margin>
-            <Insets top="-150.0" />
-         </GridPane.margin></Label>
-      <Label fx:id="Bojaslike" text="28-45 years" GridPane.columnIndex="3" GridPane.rowIndex="3">
-         <font>
-            <Font size="10.0" />
-         </font>
-         <GridPane.margin>
-            <Insets left="50.0" />
+            <Insets />
          </GridPane.margin>
-      </Label>
-      <ImageView fitHeight="220.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="10">
-         <image>
-            <Image url="@img/slika.png" />
-         </image>
-         <GridPane.margin>
-            <Insets left="-25.0" top="-150.0" />
-         </GridPane.margin>
-         <viewport>
-            <Rectangle2D />
-         </viewport></ImageView>
-      <Label text="&gt;45 years" GridPane.columnIndex="1" GridPane.rowIndex="7">
-         <font>
-            <Font size="12.0" />
-         </font>
-         <GridPane.margin>
-            <Insets left="35.0" />
-         </GridPane.margin>
-      </Label>
+         <bottom>
+            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
    </children>
 
 
