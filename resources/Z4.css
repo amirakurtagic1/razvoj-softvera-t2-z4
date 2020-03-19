@@ -2,8 +2,8 @@ GridPane{
     -fx-background-color: yellowgreen;
 }
 
-/*#GridZaSliku {
+Bojaslike{
 
-   -fx-background-image: url("/img/slika.png");
+   -fx-background-color: blue;
 
-}*/
+}

@@ -16,11 +16,10 @@ public class Main extends Application {
         primaryStage.setScene(new Scene(root, 550, 400));
         primaryStage.setMinWidth(550);
         primaryStage.setMinHeight(400);
+        primaryStage.setResizable(false);
 
-        /*ImageView imageView = new ImageView("/img/slika.png");
-        imageView.setFitHeight(100);
-        imageView.setFitWidth(100);*/
         primaryStage.show();
+
     }
 
 
